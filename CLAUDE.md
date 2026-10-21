@@ -7,7 +7,7 @@ Read this before any change. Agents and humans follow the same rules.
 Spring Boot REST API for a veterinary clinic (owners, pets, vets, visits). Java 21, Maven 3.9+, OpenAPI-generated API (`src/main/resources/openapi.yml`), JPA repositories under `repository/jpa`, global error handling in `rest/advice/ExceptionControllerAdvice.java`.
 
 - Build: `mvn -q -B -DskipTests package`
-- Test: `mvn -q -B test` (full suite must stay green; currently 241 tests)
+- Test: `mvn -q -B test` (full suite must stay green; 239 tests on master as of PR #1)
 - Run locally: container `petclinic` on `127.0.0.1:9966`, base path `/petclinic/api`
 
 ## HRKA delivery rules (non-negotiable)
